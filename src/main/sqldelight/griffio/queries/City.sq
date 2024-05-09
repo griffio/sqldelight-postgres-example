@@ -1,0 +1,14 @@
+insert:
+INSERT INTO City (city_name) VALUES (?) ;
+
+delete:
+WITH deleted_rows AS (
+    DELETE FROM City
+    RETURNING *
+)
+
+SELECT COUNT(*) FROM deleted_rows;
+
+select:
+SELECT *
+FROM City;
