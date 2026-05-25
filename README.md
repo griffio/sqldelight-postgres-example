@@ -1,6 +1,8 @@
-# SqlDelight 2.1.x Postgresql migrations with Flyway 
+# SqlDelight 2.3.x Postgresql migrations with Flyway 
 
 https://github.com/cashapp/sqldelight
+
+SqlDelight version 2.3.x
 
 ```shell
 createdb sampledb &&
